@@ -1,5 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import profileImage from "@/assets/kusuma-profile.jpg";
 
 const About = () => {
   return (
@@ -28,28 +27,13 @@ const About = () => {
               , which have given me valuable hands-on experience.
             </p>
             
-            <div className="grid grid-cols-2 gap-4 pt-6">
-              <Card className="bg-gradient-card border-0 shadow-soft">
-                <CardContent className="p-4 text-center">
-                  <div className="text-2xl font-bold text-brand-blue">2+</div>
-                  <div className="text-sm text-muted-foreground">Years Learning</div>
-                </CardContent>
-              </Card>
-              
-              <Card className="bg-gradient-card border-0 shadow-soft">
-                <CardContent className="p-4 text-center">
-                  <div className="text-2xl font-bold text-brand-purple">5+</div>
-                  <div className="text-sm text-muted-foreground">Projects Built</div>
-                </CardContent>
-              </Card>
-            </div>
           </div>
           
           <div className="flex justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-primary rounded-full blur-xl opacity-30 scale-110"></div>
               <img
-                src={profileImage}
+                src="/lovable-uploads/29212228-dd61-44b9-ae83-79f22b142f6b.png"
                 alt="Kusuma - IT Student"
                 className="relative w-80 h-80 object-cover rounded-full shadow-strong border-4 border-white"
               />

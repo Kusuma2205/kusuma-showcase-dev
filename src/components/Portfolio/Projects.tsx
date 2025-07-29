@@ -7,24 +7,27 @@ const Projects = () => {
   const projects = [
     {
       title: "Career Guidance Platform",
-      description: "Platform that helps students discover suitable career paths based on interests and trends. Includes assessment tools, real-time analytics, and personalized recommendations for academic and professional growth.",
+      description: "Platform that helps students discover suitable career paths based on interests and trends.",
       image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=250&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB"],
-      category: "Web Application"
+      technologies: ["HTML", "CSS", "JavaScript"],
+      category: "Web Application",
+      githubUrl: "https://github.com/Kusuma2205/CareerGuidancePlatform.git"
     },
     {
       title: "Portfolio Website",
       description: "A responsive personal portfolio to showcase skills and projects using modern web technologies. Features include smooth scrolling, project previews, and an elegant interface designed for better visibility and interaction.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=250&fit=crop",
       technologies: ["React", "TypeScript", "Tailwind CSS"],
-      category: "Frontend"
+      category: "Frontend",
+      githubUrl: "https://github.com/Kusuma2205/Portfolio.git"
     },
     {
       title: "Fraud Detection in Banking",
-      description: "An advanced system designed to identify and prevent fraudulent transactions in the banking sector using machine learning algorithms and real-time data analysis.",
+      description: "An advanced system designed to identify and prevent fraudulent transactions in the banking sector using blockchain technology and real-time data analysis.",
       image: fraudDetectionImage,
-      technologies: ["Python", "Machine Learning", "TensorFlow"],
-      category: "Data Science"
+      technologies: ["Java", "Blockchain"],
+      category: "Blockchain",
+      githubUrl: "https://github.com/Kusuma2205/fraud-detection-banking.git"
     }
   ];
 
@@ -76,13 +79,14 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-2">
-                  <Button variant="outline" size="sm" className="flex-1">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="flex-1"
+                    onClick={() => window.open(project.githubUrl, '_blank')}
+                  >
                     <Github className="w-4 h-4 mr-1" />
                     Code
-                  </Button>
-                  <Button variant="gradient" size="sm" className="flex-1">
-                    <ExternalLink className="w-4 h-4 mr-1" />
-                    Live Demo
                   </Button>
                 </div>
               </CardContent>
