@@ -8,7 +8,7 @@ const Certifications = () => {
       title: "AWS Certified Cloud Practitioner",
       issuer: "GeeksforGeeks",
       description: "Successfully completed a 4-week comprehensive course on AWS Cloud fundamentals, covering core AWS services, cloud concepts, security, and pricing models. This certification demonstrates foundational knowledge of cloud computing and AWS services.",
-      image: "/lovable-uploads/97b2c9be-f304-4aca-962d-70415f8cb9b7.png",
+      image: "/aws-certificate.png",
       date: "2024",
       category: "Cloud Computing"
     },
@@ -16,7 +16,7 @@ const Certifications = () => {
       title: "Programming in Java",
       issuer: "NPTEL (IIT Kharagpur)",
       description: "Elite certification in Java programming with a consolidated score of 60%. Completed online assignments and proctored exam covering object-oriented programming concepts, data structures, and Java fundamentals through a 12-week intensive course.",
-      image: "/lovable-uploads/71f6005e-d902-40cf-b409-2074f66ef8c6.png",
+      image: "/java-certificate.png",
       date: "Jan-Apr 2024",
       category: "Programming"
     },
@@ -24,7 +24,7 @@ const Certifications = () => {
       title: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
       issuer: "Oracle University",
       description: "Oracle Certified Foundations Associate certification demonstrating knowledge of Oracle Cloud Infrastructure services, architecture, and core concepts. This certification validates understanding of cloud computing fundamentals and Oracle's cloud platform.",
-      image: "/lovable-uploads/38f5d801-b360-4793-b48f-372a6fd8b263.png",
+      image: "/oracle-certificate.png",
       date: "July 2025",
       category: "Cloud Infrastructure"
     }

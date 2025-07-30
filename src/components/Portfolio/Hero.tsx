@@ -53,7 +53,7 @@ const Hero = () => {
           <Button 
             variant="tech" 
             size="xl"
-            onClick={() => window.open('/lovable-uploads/3245d4cb-f810-4c95-828d-8d11aea4ce21.png', '_blank')}
+            onClick={() => window.open('/kusuma-resume.png', '_blank')}
             className="group"
           >
             <Download className="mr-2 group-hover:scale-110 transition-transform" />
