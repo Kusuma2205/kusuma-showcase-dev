@@ -36,7 +36,7 @@ const Contact = () => {
 
   const handleResumeView = () => {
     // This would open the resume in a new tab
-    window.open('#', '_blank');
+    window.open('/lovable-uploads/3245d4cb-f810-4c95-828d-8d11aea4ce21.png', '_blank');
   };
 
   return (
