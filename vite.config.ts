@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // Read the current mode from environment (so we can check for development)
 export default defineConfig(({ mode }) => ({
-  base: "/kusuma-showcase-dev/", // 👈 Required for GitHub Pages deployment
+  base: "/kusuma-showcase-dev/", 
   server: {
     host: "::",
     port: 8080,
