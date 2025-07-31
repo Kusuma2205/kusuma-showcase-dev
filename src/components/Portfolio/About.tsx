@@ -33,7 +33,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-primary rounded-full blur-xl opacity-30 scale-110"></div>
               <img
-                src="/kusuma-profile.png"
+                src="/kusuma-profile-new.png"
                 alt="Kusuma - IT Student"
                 className="relative w-80 h-80 object-cover rounded-full shadow-strong border-4 border-white"
               />
